@@ -14,7 +14,6 @@ Princess Escape is a puzzle/adventure game concept where the player controls a p
 - Level design and environment setup
 
 ## 🔧 Technologies
-- Unity (version used: 2021.X.X or 2022.X.X)
 - C# scripting
 - Unity Animator
 
