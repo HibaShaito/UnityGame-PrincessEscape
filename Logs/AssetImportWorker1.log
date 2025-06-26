@@ -1,0 +1,1036 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.33f1 (b2c853adf198) revision 11716691'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 8084 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Lenovo/Princess Escape
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+49936
+Successfully changed project path to: C:/Users/Lenovo/Princess Escape
+C:/Users/Lenovo/Princess Escape
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7204] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 2026553355 [EditorId] 2026553355 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-P2U6VKF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7204] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 2026553355 [EditorId] 2026553355 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-P2U6VKF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+Refreshing native plugins compatible for Editor in 1313.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.33f1 (b2c853adf198)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Lenovo/Princess Escape/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 4600 (ID=0x416)
+    Vendor:   Intel
+    VRAM:     2048 MB
+    Driver:   20.19.15.4835
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.040820 seconds.
+- Loaded All Assemblies, in  1.085 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 850 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.615 seconds
+Domain Reload Profiling: 2696ms
+	BeginReloadAssembly (328ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (108ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (175ms)
+	LoadAllAssembliesAndSetupDomain (438ms)
+		LoadAssemblies (327ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (430ms)
+			TypeCache.Refresh (427ms)
+				TypeCache.ScanAssembly (392ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1616ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1487ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1163ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (214ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.323 seconds
+Refreshing native plugins compatible for Editor in 5.51 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.012 seconds
+Domain Reload Profiling: 2332ms
+	BeginReloadAssembly (213ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (989ms)
+		LoadAssemblies (798ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (305ms)
+			TypeCache.Refresh (272ms)
+				TypeCache.ScanAssembly (242ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1012ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (769ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (579ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 9.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3750 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (1.3 MB). Loaded Objects now: 4242.
+Memory consumption went from 190.5 MB to 189.2 MB.
+Total: 32.118500 ms (FindLiveObjects: 0.677600 ms CreateObjectMapping: 0.448300 ms MarkObjects: 30.018300 ms  DeleteObjects: 0.972000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Health.cs: 0e01c5d611b7e6f68d551fd8377c081b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 25258.822087 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Environment/Scripts
+  artifactKey: Guid(c992741f48cbfc940b0b7c6ebc0566af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Environment/Scripts using Guid(c992741f48cbfc940b0b7c6ebc0566af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '2eb59f283efafb2f4b964f2963bfb3ff') in 0.004022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.030375 seconds.
+  path: Assets/Scripts/DamageTester.cs
+  artifactKey: Guid(de5d9f5639e24c64eb8eda153bbaa6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DamageTester.cs using Guid(de5d9f5639e24c64eb8eda153bbaa6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '186ac6a63a0658ed37fdf8c5864f2c03') in 0.001181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.772009 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Environment/Effects/particle_exp_tick_01.png
+  artifactKey: Guid(897b2acd36883644693e47511569c584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Environment/Effects/particle_exp_tick_01.png using Guid(897b2acd36883644693e47511569c584) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '6ea9299a1ff571ad4ea86f7fbc6b971e') in 0.241353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.285010 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animations/Legacy/without weapon/dead.anim
+  artifactKey: Guid(f46856686683e6a4db7028d7318fa39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animations/Legacy/without weapon/dead.anim using Guid(f46856686683e6a4db7028d7318fa39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '3864902c41d4b9ac626f155438083891') in 0.442822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.145905 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
+  artifactKey: Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset using Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'e898f4ddc8cf768565defa71ed9d6445') in 0.169350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 5.986087 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Textures/wizard_addon_01_metalic.tga
+  artifactKey: Guid(dcc86a764a88dc842b5b8329538e73ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Textures/wizard_addon_01_metalic.tga using Guid(dcc86a764a88dc842b5b8329538e73ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '729c3ba3761c53ed4637cc7f5585ab55') in 0.037426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.155107 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animations/Legacy/with weapon/move_forward.anim
+  artifactKey: Guid(e67fd987be4334e469b03cfc2ad2bb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animations/Legacy/with weapon/move_forward.anim using Guid(e67fd987be4334e469b03cfc2ad2bb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'b56191f77b4c3d1fb46d550864a10da6') in 0.095721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Materials/wizard_addon_head_01 DEMO.mat
+  artifactKey: Guid(1ad4378e58356014881c80cd15757bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Materials/wizard_addon_head_01 DEMO.mat using Guid(1ad4378e58356014881c80cd15757bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'ba0035fe3c31e981242479e28a9995fa') in 0.157352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Textures/wizard_01_ao DEMO.png
+  artifactKey: Guid(2e6d39dacb9776149b50c39904930f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Textures/wizard_01_ao DEMO.png using Guid(2e6d39dacb9776149b50c39904930f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'c15cccaf8a1aeaef6927fe64cbfa9087') in 0.037211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.016349 seconds.
+  path: Assets/Scripts/AttackScript.cs
+  artifactKey: Guid(507598e692c153f4688147929904460c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AttackScript.cs using Guid(507598e692c153f4688147929904460c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '4b2625f2c119fc1a1534d0135f0c40d4') in 0.001829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.198667 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Environment/Effects/Particle_blood_03_Alpha.mat
+  artifactKey: Guid(b5f097608a387224fbb55e0a833df0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Environment/Effects/Particle_blood_03_Alpha.mat using Guid(b5f097608a387224fbb55e0a833df0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '0e99d6d19b0dce6e130ae5882c333e97') in 0.027087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.270216 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Environment/Effects/particle_glow.png
+  artifactKey: Guid(a75644174c0343d4abf18ebd52ece6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Environment/Effects/particle_glow.png using Guid(a75644174c0343d4abf18ebd52ece6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '0f53c61a7d86daf8d947d425e2addfe7') in 0.030209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.025510 seconds.
+  path: Assets/Scripts/DamagePopUpGenerator.cs
+  artifactKey: Guid(742c3fe5104f4bc4aa8b67967dff986a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DamagePopUpGenerator.cs using Guid(742c3fe5104f4bc4aa8b67967dff986a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '070bb39701d345dc1f00559fc64d07b2') in 0.001166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.271275 seconds.
+  path: Assets/Boxes potions and stuff/Prefabs/Coin.prefab
+  artifactKey: Guid(5142a683d65bbf84abea6f07db9099c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Boxes potions and stuff/Prefabs/Coin.prefab using Guid(5142a683d65bbf84abea6f07db9099c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '39b3a1dd31e15ae7d0fc4772bbf0efdb') in 0.204441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.409243 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Textures/wizard_weapon_01_albedo.png
+  artifactKey: Guid(bf3361ec02b03bc41a4a640764c11c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Textures/wizard_weapon_01_albedo.png using Guid(bf3361ec02b03bc41a4a640764c11c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '7bbfe1eec67eb15fb980ccf2fd4d3093') in 0.114499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.822236 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Environment/Effects/particle_scratch.png
+  artifactKey: Guid(6a4afb33b9f188b4bb972eee5929be0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Environment/Effects/particle_scratch.png using Guid(6a4afb33b9f188b4bb972eee5929be0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'edd7702e591505c48f4d83f5cfc0d447') in 0.022988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.477990 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/READ ME(wizard)
+  artifactKey: Guid(ab1a5b0377d5ea74f9ae5fe5f271e6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/READ ME(wizard) using Guid(ab1a5b0377d5ea74f9ae5fe5f271e6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '673ab2ed9c11e1c97c45e3b23c8caaf6') in 0.001540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.105964 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Prefabs/with weapon/wizard_weapon_macanim DEMO.prefab
+  artifactKey: Guid(3c9c8a8bf50e6b5439ab9db67bc82586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Prefabs/with weapon/wizard_weapon_macanim DEMO.prefab using Guid(3c9c8a8bf50e6b5439ab9db67bc82586) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '1903b3dff8639fa1d57a0c38c02965d9') in 3.472202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 222
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Materials/wizard_weapon_01 DEMO.mat
+  artifactKey: Guid(a267b501b822a7a4d8ad643ea81e410a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Materials/wizard_weapon_01 DEMO.mat using Guid(a267b501b822a7a4d8ad643ea81e410a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '67d0a96ab96f909729d6d39d53985636') in 0.630341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 3.781227 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animations/Legacy
+  artifactKey: Guid(16af5fc6a9097ed4291704a3a8e83808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animations/Legacy using Guid(16af5fc6a9097ed4291704a3a8e83808) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '63ed6fb99101ee8c5c64dbd3e4707cc1') in 0.001877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.309119 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Textures
+  artifactKey: Guid(a10ae7278efa4a549b72eacfe5fe6588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Textures using Guid(a10ae7278efa4a549b72eacfe5fe6588) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '000f8c539cab2b553a7fe958d0b61b8c') in 0.001306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.744126 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Fbx/wizard DEMO.FBX
+  artifactKey: Guid(be5995a9158bda9459c22d48acd79a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Fbx/wizard DEMO.FBX using Guid(be5995a9158bda9459c22d48acd79a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'f30dd5c0f36159162a898a74c997a54d') in 0.536729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 146
+========================================================================
+Received Import Request.
+  Time since last request: 0.115770 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat
+  artifactKey: Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat using Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '1eee693aa9bdf65335f429c3b5e9d250') in 0.079862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.182551 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Textures/wizard_01_albedo DEMO.png
+  artifactKey: Guid(2c88af1909b060b4f9d0587d34b784d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Textures/wizard_01_albedo DEMO.png using Guid(2c88af1909b060b4f9d0587d34b784d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '0df3984a0e10abae39777338d10aaa69') in 0.054035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.341654 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Environment/Demo Scene/Demo.unity
+  artifactKey: Guid(7fc0abc1e45a38742a1ecfae2c8fea42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Environment/Demo Scene/Demo.unity using Guid(7fc0abc1e45a38742a1ecfae2c8fea42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '96ebf2dbdb7730179c2e77c47bd005d5') in 0.001812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.398322 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animations/Mecanim/with weapon/idle_combat.anim
+  artifactKey: Guid(7db0132be203fce498646df097a9cf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animations/Mecanim/with weapon/idle_combat.anim using Guid(7db0132be203fce498646df097a9cf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '2c276c321bc9555612523b98912ba42c') in 0.093781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.077963 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Fbx
+  artifactKey: Guid(f1f4e07645e301641ba8b788aeeeb143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Fbx using Guid(f1f4e07645e301641ba8b788aeeeb143) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '2785b1c5a7a1c90fdf902513469464a9') in 0.003175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.014384 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
+  artifactKey: Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset using Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '9bb6b3edefadf5deaf47158e3d9c4c45') in 0.095425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.222524 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Textures/wizard_weapon_01_metalic.tga
+  artifactKey: Guid(07bf092b1865802458fd33813a4b128b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Textures/wizard_weapon_01_metalic.tga using Guid(07bf092b1865802458fd33813a4b128b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '03e1a1881b42523d73ef83352a2d7ee0') in 0.025947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.043959 seconds.
+  path: Assets/Scripts/chestManager.cs
+  artifactKey: Guid(50bbb41bb831d93478751a8a42a408a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/chestManager.cs using Guid(50bbb41bb831d93478751a8a42a408a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '67be7eb22fa049a201074ac782f4e347') in 0.001192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.247419 seconds.
+  path: Assets/Scripts/InventoryManager.cs
+  artifactKey: Guid(16a5f911e02fa534a841b2bb78a51127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/InventoryManager.cs using Guid(16a5f911e02fa534a841b2bb78a51127) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '58191eaa99711fd4463668bfb4a96bd3') in 0.001112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.302771 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animations/Legacy/with weapon/idle_normal.anim
+  artifactKey: Guid(6d2c7b500babe564cbae56db67034d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animations/Legacy/with weapon/idle_normal.anim using Guid(6d2c7b500babe564cbae56db67034d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '03b79224468989ad06801ac66c96fd34') in 0.089493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.235796 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Environment/Effects/particle_exp_tick_01_Add.mat
+  artifactKey: Guid(d49d2c98cd49c104eaeaadc5d00dded2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Environment/Effects/particle_exp_tick_01_Add.mat using Guid(d49d2c98cd49c104eaeaadc5d00dded2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'c43f487cb33642f20d6a7272f0f6ef14') in 0.025508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.515770 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animations
+  artifactKey: Guid(0c067896185281341b79e7dcebabaf68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animations using Guid(0c067896185281341b79e7dcebabaf68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'dc10c76fb612e6be32b6bdcebbf5d31a') in 0.001174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.564136 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Environment/Effects/particle_smog_02.png
+  artifactKey: Guid(ef88b76859706fe4cbb9f344f8796721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Environment/Effects/particle_smog_02.png using Guid(ef88b76859706fe4cbb9f344f8796721) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '9011ef9890039472b707e329ab8a17c2') in 0.108548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.327533 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animations/Legacy/with weapon/dead.anim
+  artifactKey: Guid(97f061d6fe22cfa4b81db0a070d75bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animations/Legacy/with weapon/dead.anim using Guid(97f061d6fe22cfa4b81db0a070d75bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'ad6980b4e6cbef6eb5a89129e7e3d626') in 0.688411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.347691 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/READ ME(wizard)/character setup guide link.txt
+  artifactKey: Guid(dce53204c2888cd48ab1c420edbd41a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/READ ME(wizard)/character setup guide link.txt using Guid(dce53204c2888cd48ab1c420edbd41a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'b417d5736cbd855065140a8fd3b9ee8f') in 0.002172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.025240 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Environment/Effects/Particle_blood_02_Alpha.mat
+  artifactKey: Guid(8df536c8e1a8ec442b182ae52190aa5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Environment/Effects/Particle_blood_02_Alpha.mat using Guid(8df536c8e1a8ec442b182ae52190aa5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '0a2c1886a2bd1fb9ef4bab39ef879dd7') in 0.025598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.393756 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animations/Mecanim/without weapon/wizard.controller
+  artifactKey: Guid(bd381ffbd2cda7a4da39842af2be8821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animations/Mecanim/without weapon/wizard.controller using Guid(bd381ffbd2cda7a4da39842af2be8821) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'f371789b4bfff6b18cc014e406eac8dc') in 1.975937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Environment/Effects/particle_blood_01.png
+  artifactKey: Guid(967ed864c1d4fe8418bf87cf7bbab064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Environment/Effects/particle_blood_01.png using Guid(967ed864c1d4fe8418bf87cf7bbab064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '6ebf8ae50d41f0dd40bccd9bec48bff2') in 0.076596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.331894 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animations/Legacy/without weapon
+  artifactKey: Guid(04d7b98a09847784b908fd9bb6b2026d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animations/Legacy/without weapon using Guid(04d7b98a09847784b908fd9bb6b2026d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '1c9673b01a9288717cef84867c72a7a6') in 0.003122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.423320 seconds.
+  path: Assets/Damage Pop-Up.prefab
+  artifactKey: Guid(63deea47d7e1046479540958c73743e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Damage Pop-Up.prefab using Guid(63deea47d7e1046479540958c73743e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'dbac4a814bc4484208da024aa760b146') in 0.213118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.204867 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animations/Legacy/without weapon/idle_combat.anim
+  artifactKey: Guid(b705003902324d044a460e8a175f3d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animations/Legacy/without weapon/idle_combat.anim using Guid(b705003902324d044a460e8a175f3d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '555593dc25d264211109f173693e3f24') in 0.358773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.132276 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animations/Mecanim/without weapon/idle_combat.anim
+  artifactKey: Guid(4fb20c3bf42721b4589386193cd0bb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animations/Mecanim/without weapon/idle_combat.anim using Guid(4fb20c3bf42721b4589386193cd0bb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '0160b123762e7daae14a155af63157d9') in 0.202798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.117080 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animations/Legacy/with weapon/attack_short_001.anim
+  artifactKey: Guid(1f331688dfc131d44ac24de634e5a33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animations/Legacy/with weapon/attack_short_001.anim using Guid(1f331688dfc131d44ac24de634e5a33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '5832711060f40406f09c535ac0fc7fa8') in 0.096420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.480238 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Environment/Effects
+  artifactKey: Guid(b3be47107f9f3d74186d4548f0c11be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Environment/Effects using Guid(b3be47107f9f3d74186d4548f0c11be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '204032375b1569677141fa5cf0f9fa80') in 0.001703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.103938 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/READ ME(wizard)/002.png
+  artifactKey: Guid(d27323fe355a1e64e831dc596841704d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/READ ME(wizard)/002.png using Guid(d27323fe355a1e64e831dc596841704d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '8091fd3da29aecc09a300ea158e2f881') in 0.032548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.043358 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animations/Mecanim/with weapon/move_forward.anim
+  artifactKey: Guid(d6bace9ab356c9a46bdf8b19608544d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animations/Mecanim/with weapon/move_forward.anim using Guid(d6bace9ab356c9a46bdf8b19608544d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '207e18a4c6eeda78eb0e7451c2485fd6') in 0.080239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.799391 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animations/Mecanim/with weapon/damage_001.anim
+  artifactKey: Guid(5895499d6a682984bb36237508239506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animations/Mecanim/with weapon/damage_001.anim using Guid(5895499d6a682984bb36237508239506) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '4e590486bc54130b82a13cc7cfa042fd') in 0.128122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.477982 seconds.
+  path: Assets/Scripts/coinManager.cs
+  artifactKey: Guid(eea8a8bd931018b4486ee08f6a44db51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/coinManager.cs using Guid(eea8a8bd931018b4486ee08f6a44db51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'e9831db1b7a6325e853b87d15623bd48') in 0.002202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.615533 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Textures/wizard_addon_01_albedo.png
+  artifactKey: Guid(2368ad4de3a65f348affe8f505647589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Textures/wizard_addon_01_albedo.png using Guid(2368ad4de3a65f348affe8f505647589) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'cd322a90bdada9da9d28a63e767166ac') in 0.036365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008599 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animations/Legacy/without weapon/idle_normal.anim
+  artifactKey: Guid(77b1d2a5bc314714aa3d55c1159b745b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animations/Legacy/without weapon/idle_normal.anim using Guid(77b1d2a5bc314714aa3d55c1159b745b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'c9a2a0df4ebf8aecdf405e4db52fc9e4') in 0.053590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.176774 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Environment/Scripts/MoveCTRLDemo.cs
+  artifactKey: Guid(4688fb4fa3d1ff946ab544361d1022e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Environment/Scripts/MoveCTRLDemo.cs using Guid(4688fb4fa3d1ff946ab544361d1022e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '40eab4f625bc069f3f53c47725c6992e') in 0.000818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.301168 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animations/Mecanim/without weapon/idle_normal.anim
+  artifactKey: Guid(99daf51ff6073ae419449cf61f32d578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animations/Mecanim/without weapon/idle_normal.anim using Guid(99daf51ff6073ae419449cf61f32d578) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '58dba7fab95036cb3ea24e8cff4c7711') in 0.089394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.149679 seconds.
+  path: Assets/Scripts/AttributesManager.cs
+  artifactKey: Guid(231fbe4a30c7c034ca0b58fa0a19e731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AttributesManager.cs using Guid(231fbe4a30c7c034ca0b58fa0a19e731) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '6323a2495dbcbedab3949cf5a926ce5b') in 0.001071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.061887 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Environment/Effects/Particle_blood_01_Alpha.mat
+  artifactKey: Guid(e18bab3442706a24b9b613bd375c7e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Environment/Effects/Particle_blood_01_Alpha.mat using Guid(e18bab3442706a24b9b613bd375c7e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '5b51f3f33774d13ba2a8b67b1cd3287e') in 0.025725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.190400 seconds.
+  path: Assets/Scripts/Coins.cs
+  artifactKey: Guid(4b461f40467d2f2459d589769f0842ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Coins.cs using Guid(4b461f40467d2f2459d589769f0842ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '7bf307bb3cc24bc283920625073a67f9') in 0.000940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.294227 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animations/Mecanim/without weapon/attack_short_001.anim
+  artifactKey: Guid(22b21bdd7de164e4581a9c236f667ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animations/Mecanim/without weapon/attack_short_001.anim using Guid(22b21bdd7de164e4581a9c236f667ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '801327e9e2a536c91080de25ec6d5ecc') in 0.244922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.441893 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat
+  artifactKey: Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat using Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '772621cb4f2dc7db372d6ea1d91945f6') in 0.038500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.002443 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Environment/Effects/effect_attack_short_01.anim
+  artifactKey: Guid(4029d7b370757f849aeebc2fe714cffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Environment/Effects/effect_attack_short_01.anim using Guid(4029d7b370757f849aeebc2fe714cffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'aed55a7d368a9ceb6e2e7c54b3ed6139') in 0.003701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.317888 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat
+  artifactKey: Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat using Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '10aeb9fb61b104d22aadf5cfcfcb865f') in 0.135224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.583959 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animations/Mecanim/with weapon/dead.anim
+  artifactKey: Guid(74b88567bc7f97840a72037d8ee1006d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animations/Mecanim/with weapon/dead.anim using Guid(74b88567bc7f97840a72037d8ee1006d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'f9b22e9df5adf709109ea04d75b214ed') in 1.938193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Environment/Effects/particle_fire.png
+  artifactKey: Guid(7c48aa657cce40c41961839b29cb7aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Environment/Effects/particle_fire.png using Guid(7c48aa657cce40c41961839b29cb7aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '43c2311d52db4984d419668e44269e35') in 0.062917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.414899 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animations/Mecanim/with weapon/wizard.controller
+  artifactKey: Guid(700d9bf6b23d6c7478ef89bf23dd2558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animations/Mecanim/with weapon/wizard.controller using Guid(700d9bf6b23d6c7478ef89bf23dd2558) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'c94917a95fc587beb6607305d5a2917c') in 1.648929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.434513 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Materials/ground_for demo.mat
+  artifactKey: Guid(d584889588f2b6840a6b076aa0a1d663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Materials/ground_for demo.mat using Guid(d584889588f2b6840a6b076aa0a1d663) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '15cf4e3e2d8a7f559272ba749846095d') in 0.035735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.060964 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Textures/wizard_weapon_01_ao.png
+  artifactKey: Guid(fc03c3180e1ae7c46b2d72bbbc2e09d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Textures/wizard_weapon_01_ao.png using Guid(fc03c3180e1ae7c46b2d72bbbc2e09d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '73ef725135544be6786e0d9c8892e378') in 0.021637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.113409 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animations/Mecanim/without weapon/move_forward.anim
+  artifactKey: Guid(198ec818f178cde49875f41f834fcae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animations/Mecanim/without weapon/move_forward.anim using Guid(198ec818f178cde49875f41f834fcae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'a70adaf42247c160b6f5544faa7ee097') in 0.040334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  4.021 seconds
+Refreshing native plugins compatible for Editor in 6.86 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 80.350 seconds
+Domain Reload Profiling: 84369ms
+	BeginReloadAssembly (252ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (3612ms)
+		LoadAssemblies (3726ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (80352ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3789ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (239ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (248ms)
+			ProcessInitializeOnLoadAttributes (3002ms)
+			ProcessInitializeOnLoadMethodAttributes (181ms)
+			AfterProcessingInitializeOnLoad (111ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (91ms)
+Refreshing native plugins compatible for Editor in 26.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3688 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.3 MB). Loaded Objects now: 4295.
+Memory consumption went from 178.3 MB to 177.0 MB.
+Total: 14.781000 ms (FindLiveObjects: 1.173900 ms CreateObjectMapping: 1.069200 ms MarkObjects: 11.826200 ms  DeleteObjects: 0.708100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Health.cs: 0e01c5d611b7e6f68d551fd8377c081b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.818 seconds
+Refreshing native plugins compatible for Editor in 8.59 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.370 seconds
+Domain Reload Profiling: 5184ms
+	BeginReloadAssembly (285ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (391ms)
+		LoadAssemblies (527ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (4371ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3439ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (413ms)
+			SetLoadedEditorAssemblies (20ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (503ms)
+			ProcessInitializeOnLoadAttributes (2330ms)
+			ProcessInitializeOnLoadMethodAttributes (161ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 92.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3688 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.3 MB). Loaded Objects now: 4298.
+Memory consumption went from 178.3 MB to 177.0 MB.
+Total: 26.421300 ms (FindLiveObjects: 1.928800 ms CreateObjectMapping: 2.906500 ms MarkObjects: 21.016200 ms  DeleteObjects: 0.566500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Health.cs: 0e01c5d611b7e6f68d551fd8377c081b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.822 seconds
+Refreshing native plugins compatible for Editor in 7.91 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.231 seconds
+Domain Reload Profiling: 5051ms
+	BeginReloadAssembly (264ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (402ms)
+		LoadAssemblies (525ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (4234ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2955ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (51ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (503ms)
+			ProcessInitializeOnLoadAttributes (2222ms)
+			ProcessInitializeOnLoadMethodAttributes (125ms)
+			AfterProcessingInitializeOnLoad (48ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (57ms)
+Refreshing native plugins compatible for Editor in 64.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3688 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.3 MB). Loaded Objects now: 4301.
+Memory consumption went from 178.3 MB to 177.0 MB.
+Total: 14.872900 ms (FindLiveObjects: 2.576300 ms CreateObjectMapping: 3.910000 ms MarkObjects: 7.688400 ms  DeleteObjects: 0.693800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Health.cs: 0e01c5d611b7e6f68d551fd8377c081b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
